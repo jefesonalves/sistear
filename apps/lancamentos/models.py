@@ -9,4 +9,7 @@ class Lancamentos(models.Model):
     evento = models.ForeignKey(Evento, null=False, blank=False, on_delete=models.PROTECT)    
 
     class Meta:
-        verbose_name_plural = '01 - Lançamentos'
+        verbose_name_plural = "01 - Lançamentos"
+    
+    def __str__(self):
+        return self.tear.descricao + " " + self.eficiencia.descricao + " " + self.evento.descricao
