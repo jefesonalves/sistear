@@ -1,2 +1,2 @@
 # SISTEAR
-Sistema para controle de eventos de teares.
+Sistema para controle de eventos de teares no setor Têxtil.
