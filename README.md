@@ -1,2 +1,2 @@
-# sistear
-Sistema para controle de eventos de tear
+# SISTEAR
+Sistema para controle de eventos de teares.
