@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-from .models import Eficiencia
+from . import models
 
-admin.site.register(Eficiencia)
+admin.site.register(models.Eficiencia)

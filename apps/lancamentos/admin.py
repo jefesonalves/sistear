@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import Lancamentos
+from . import models
 
-admin.site.register(Lancamentos)
+admin.site.register(models.Lancamentos)

@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import Tear
+from . import models
 
-admin.site.register(Tear)
+admin.site.register(models.Tear)
